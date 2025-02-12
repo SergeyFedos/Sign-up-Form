@@ -77,6 +77,7 @@ font-size: 1.3rem;
 border-radius: 8px;
 outline: none;
 border: none;
+background-color: rgb(177, 198, 198);
  
 }
 .form {
@@ -85,6 +86,7 @@ border: none;
   color: white;
   font-size: 1.2rem;
   font-weight: 500;
+  min-width: 15rem;
 }
 .col1,
 .col2, {
@@ -124,4 +126,14 @@ a:hover {
 }
 fieldset input:hover {
   background-color: blanchedalmond;
+}
+
+
+
+input[type="submit"]:focus {
+  opacity: 0.5;
+}
+fieldset input:focus {
+  border: 2px solid rgb(13, 13, 179);
+  box-shadow: 2px 2px;
 }
